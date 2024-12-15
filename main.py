@@ -1,7 +1,6 @@
-# 从studentManager模块导入StudentManagerSystem功能
-from studentManager import StudentManagerSystem
+from StudentManager import StudentManager
 
 # 定义入口代码
 if __name__ == '__main__':
-    student_manager = StudentManagerSystem()
-    student_manager.run()
+    manager = StudentManager()
+    manager.run()
